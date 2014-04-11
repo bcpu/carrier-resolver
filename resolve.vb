@@ -1,7 +1,7 @@
 Private Sub Resolve()
 
         dim strphone as string
-	      strphone = "1112223333"
+	strphone = "1112223333"
         exchange = strphone.Substring(0, 3)
         exchange2 = strphone.Substring(3, 3)
         exchange3 = strphone.Substring(6, 4)
